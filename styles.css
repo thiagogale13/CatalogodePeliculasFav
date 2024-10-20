@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #ff4500;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 300px;
+    border: 2px solid #ff69b4;
+    border-radius: 8px;
+    background-color: #fafad2;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #32cd32;
+    color: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+button:hover {
+    background-color: #228b22;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+#movies li, #favorites-list li {
+    margin-bottom: 15px;
+    color: #ff6347;
+    font-weight: bold;
+}
+
+#movies img {
+    max-width: 150px;
+    border-radius: 10px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+#details img {
+    max-width: 200px;
+    border-radius: 10px;
+}
+
+.hidden {
+    display: none;
+}
